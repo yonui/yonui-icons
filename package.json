@@ -2,9 +2,7 @@
   "name": "yonui-icons",
   "private": true,
   "scripts": {
-    "clean": "lerna clean",
-    "build": "lerna run --scope=@yonui/icons-ys build",
-    "publish": "lerna publish"
+    "clean": "lerna clean"
   },
   "keywords": [],
   "devDependencies": {
