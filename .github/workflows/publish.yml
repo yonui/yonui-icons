@@ -16,8 +16,8 @@ jobs:
     - run: npm install
     - run: npm install lerna -g
     - run: lerna run --scope=@yonui/icons-ys build
-    - run: lerna publish --yes
-    # - run: lerna run --scope=@yonui/icons-ys publish
+    # - run: lerna publish --yes
+    - run: lerna run --scope=@yonui/icons-ys publish
       env:
         NODE_AUTH_TOKEN: ${{secrets.NPM_TOKEN}}
 
