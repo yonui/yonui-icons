@@ -1,11 +1,11 @@
 {
   "name": "@yonui/icons-ys",
-  "version": "1.0.4-alpha.0",
+  "version": "1.0.4",
   "description": "",
   "main": "index.js",
   "scripts": {
     "build": "npm install && gulp",
-    "publish": "npm publish --tag alpha"
+    "publish": "npm publish"
   },
   "files": [
     "lib",
